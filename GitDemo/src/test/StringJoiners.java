@@ -11,6 +11,7 @@ public static void main(String[] args) {
 		list.add("i");
 		list.add("am");
 		list.add("Ratan");
+		list.add("Sagavekar");
 		
 		StringJoiner sjr= new StringJoiner(",","[","]");
 		list.forEach(c->sjr.add(c));
